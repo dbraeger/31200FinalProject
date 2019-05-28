@@ -1,0 +1,65 @@
+.contactContentWrapper {
+  height: 100%;
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formWrapper {
+  background-color: rgba(255, 193, 7, 0.75);
+  height: 300px;
+  width: 50%;
+  border-radius: 50px;
+  display: flex;
+  margin-bottom: 50px;
+
+}
+
+.contactTitleWrapper {
+
+}
+
+.contactTitle {
+  margin-top: -20px;
+  color: #4588c3;
+}
+
+.formContentWrapper {
+  width: 100%;
+  height: 567px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* label color */
+.input-field label {
+  color: #4588c3;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #4588c3;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* valid color */
+.input-field input[type=text].valid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #000;
+}

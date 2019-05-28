@@ -1,0 +1,27 @@
+{
+  "header": "Super Duper Ice Cream Shop",
+  "tagline": "Where Ice Cream Is Super!",
+  "about": "Super Duper Ice Cream is the best ice cream in the world. Founded in 2019, Manthaniel Icereamo wanted ice cream to be super all the time. He used the same stuff that makes rubber duckies cry to make it taste so good.",
+  "flavors": [
+    {
+      "flavor":"Blue",
+      "image": "assets/iceCream1.jpg",
+      "cost": 2.99
+    },
+    {
+      "flavor":"Chocolate",
+      "image": "assets/iceCream2.jpg",
+      "cost": 1.99
+    },
+    {
+      "flavor":"Vanilla",
+      "image": "assets/iceCream3.jpg",
+      "cost": 1.99
+    },
+    {
+      "flavor":"The Trio",
+      "image": "assets/iceCream4.jpg",
+      "cost": 3.99
+    }
+  ]
+}
